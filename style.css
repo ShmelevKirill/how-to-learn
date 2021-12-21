@@ -23,11 +23,6 @@
 }
 
 
-
-
-
-
-
 .logo_place_header {
   position: absolute;
   width: 183px;
@@ -167,6 +162,7 @@
   padding-bottom: 100px;
   width: 1100px;
   margin: auto;
+  justify-content: space-between
 }
 
 .table__cell {
@@ -199,6 +195,7 @@
   background-repeat: no-repeat;
   Background-size: 867px 637px;
   background-position: 0 100%;
+  position: relative;
 }
 
 .feynman__title {
@@ -277,7 +274,9 @@
 .table_theme_dark {
   display: flex;
   flex-wrap: wrap;
-  color: white;
+  color: #FFFFFF;
+  padding-bottom: 90px;
+  justify-content: space-between;
 }
 
 
@@ -287,7 +286,7 @@
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
+  color: #FFFFFF;
   margin-top: 80px;
   z-index: 2;
 }
@@ -298,7 +297,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  color: white;
+  color: #FFFFFF;
 }
 
 
@@ -308,7 +307,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 20px 0 0;
-  color: white;
+  color: #FFFFFF;
 }
 
 .footer {
@@ -320,6 +319,8 @@
   display: flex;
   flex-basis: 711px;
   width: 90%;
+  position: relative;
+  margin: auto;
 }
 
 .logo_place_footer {
@@ -330,18 +331,23 @@
 .footer__author {
   margin-top: 18px;
   margin-bottom: 18px;
-  color: white;
+  color: #FFFFFF;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer__column_content_info {
-  color: white;
+  color: #FFFFFF;
+  margin: auto;
 }
 
 .footer__column_contetnt_social {
-  color: white;
+  color: #FFFFFF;
+  position: absolute;
+  right: 0px;
 }
 
 .footer__column-links {
@@ -353,7 +359,7 @@
 
 .footer__column-link {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
