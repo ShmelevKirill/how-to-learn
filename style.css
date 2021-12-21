@@ -10,7 +10,6 @@
   background-color: #F2F2F2;
 }
 
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -21,7 +20,6 @@
   align-items: center;
   color: #000000;
 }
-
 
 .logo_place_header {
   position: absolute;
@@ -62,8 +60,6 @@
   text-decoration: none;
 }
 
-
-
 .header__main-illustration {
   position: absolute;
   width: 765px;
@@ -72,7 +68,6 @@
   right: 0;
   z-index: 2;
 }
-
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
@@ -134,7 +129,6 @@
   flex-wrap: wrap;
 }
 
-
 .section-title {
   width: 60%;
   padding-bottom: 20px;
@@ -185,7 +179,6 @@
   margin: 20px 0 0;
   color: #000000;
 }
-
 
 .feynman {
   height: 890px;
@@ -255,7 +248,6 @@
   font-weight: bold;
   text-align: center;
   z-index: 1;
-
 }
 
 .section-subtitle_theme_dark {
@@ -268,7 +260,6 @@
   z-index: 1;
 }
 
-
 .table_theme_dark {
   display: flex;
   flex-wrap: wrap;
@@ -276,10 +267,6 @@
   padding-bottom: 90px;
   justify-content: space-between;
 }
-
-
-
-
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -289,16 +276,12 @@
   z-index: 2;
 }
 
-
-
 .table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   color: #FFFFFF;
 }
-
-
 
 .table__text_theme_dark {
   line-height: 1.2;
@@ -352,7 +335,6 @@
   list-style-type:none;
   padding: 20px 0 16px 0;
   margin: auto;
-
 }
 
 .footer__column-link {
