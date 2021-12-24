@@ -162,6 +162,7 @@
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  list-style-type: none;
 }
 
 .table__heading {
