@@ -263,12 +263,12 @@
 
 .section-title_theme_dark {
   z-index: 2;
-  color: #FFFFFF
+  color: #FFFFFF;
 }
 
 .section-subtitle_theme_dark {
   z-index: 1;
-  color: #FFFFFF
+  color: #FFFFFF;
 }
 
 .table_theme_dark {
