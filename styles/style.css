@@ -261,25 +261,14 @@
   background-size: contain;
 }
 
-.kaufman__section-title_theme_dark {
-  width: 60%;
-  padding-bottom: 20px;
-  margin: auto;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
+.section-title_theme_dark {
   z-index: 2;
+  color: #FFFFFF
 }
 
-.kaufman__section-subtitle_theme_dark {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: auto;
-  width: 60%;
-  text-align: center;
+.section-subtitle_theme_dark {
   z-index: 1;
+  color: #FFFFFF
 }
 
 .table_theme_dark {
