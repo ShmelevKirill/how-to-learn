@@ -1,7 +1,9 @@
 .video__iframe {
   margin: 0 20px 0 auto;
+  width: 515px;
+  height: 316px;
 }
 
-.video__iframe:nth-child(2n) {
+.video__iframe:nth-child(2n+2) {
   margin: 0 auto 0 0;
 }
