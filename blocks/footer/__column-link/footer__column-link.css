@@ -5,9 +5,11 @@
     font-weight: normal;
     margin: auto;
     color: #FFFFFF;
+    transition: 1s linear;
   }
 
   .footer__column-link:hover {
     background-color: #f2f2f2;
     color: #000000;
+    opacity: 0.7;
   }

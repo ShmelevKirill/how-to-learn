@@ -2,8 +2,10 @@
     font-size: 18px;
     color: #2f80ed;
     text-decoration: none;
+    transition: 1s linear;
   }
 
   .header__link:hover {
     background-color: #f2f2f2;
+    opacity: 0.5;
   }
