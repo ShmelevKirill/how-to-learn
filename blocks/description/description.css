@@ -1,6 +1,6 @@
 .description {
-    display: flex;
-    min-width: 784px;
-    justify-content: center;
-    margin: 100px 0 0;
-  }
+  display: flex;
+  min-width: 784px;
+  justify-content: center;
+  margin: 100px 0 0;
+}
